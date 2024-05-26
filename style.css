@@ -126,5 +126,18 @@ margin-top: 1rem;
             display: block; /* Change display to block to stack elements vertically */
             margin-left: 0; /* Remove any left margin */
         }
+         nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 0.5rem; /* Adjust the margin as needed */
+    display: inline-block; /* Ensure the background covers the full width of the text */
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+}
+
+nav a:hover {
+    background-color: gray;
+    padding:0rem /* Apply background color on hover */
+}
+  
     }
     
