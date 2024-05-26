@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem; /* Adjust the margin as needed */
+    display: inline-block; /* Ensure the background covers the full width of the text */
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+}
+
+nav a:hover {
+    background-color: gray;
+    padding:0.1rem /* Apply background color on hover */
+}
+
+
+
+
+
+.Center {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+    margin: 0;
+}
+img {
+    height:300px;
+    width: 100%;
+    min-height: fit-content;
+}
+p{
+   
+    padding-left: 0rem;
+}
+#section-a{
+float: left;
+width: 70%;
+padding: 2rem;
+background-color: #fff;
+margin-top: 1rem;
+   
+
+}
+#section-b{
+    float: right;
+    width: 29%;
+    height:400px ;
+    padding: 2rem;
+    background-color: #fff;
+   margin-bottom: 0.5rem;
+  margin-top: 1rem;
+   
+    
+    }
+    #section-b p{
+        padding-top: 0.5rem;
+    }
+    #section-b img {
+        height: 200px;
+    }
+    #section-c{
+        float: left;
+        width: 70%;
+        padding: 2rem;
+        background-color: #fff;
+        margin-top: 1rem;
+    }
+    #section-c img{
+        height: 500px;
+    }
+    #section-d{
+        float: right;
+        width: 29%;
+        height:680px ;
+        padding: 2rem;
+        background-color: #fff;
+      
+        
+       
+        }
+        #section-d p{
+            padding-top: 0.5rem;
+        }
+        #section-d img {
+            height: 180px;
+           
+        }
+       
+        #section-e {
+        background-color: #fff;
+       float: right;
+       width: 29%;
+       height: 50%;
+       margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 2rem;
+       } 
+
+       #main-footer {
+        width: 100%;
+        height: 50% ;
+        text-align: center;
+        float: inline-end;
+        background-color: #fff;
+        margin-top: 1rem;
+        padding: 1rem;
+       }
+       @media (max-width: 767px) {
+        /* Apply styles for screens up to 767px wide (typically mobile phones) */
+        #section-a, #section-b, #section-c, #section-d, #section-e {
+            float: none; /* Remove floating */
+            width: 100%; /* Set width to 100% to take up the full width of the viewport */
+            display: block; /* Change display to block to stack elements vertically */
+            margin-left: 0; /* Remove any left margin */
+        }
+    }
+    
